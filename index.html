@@ -3,79 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <title>Eli, now on the World Wide Web</title>
-  <style>
-    body {
-      background: #004299 url('https://rustelias.github.io/grid-me.png');
-      color: yellow;
-      font-family: "Comic Sans MS", "Courier New", monospace;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      margin: 50px auto;
-      width: 80%;
-      background-color: #004299;
-      border: 5px double lime;
-      padding: 20px;
-      text-align: center;
-    }
-    
-    .project_card {
-      text-align: left;
-      border: 1px solid white;
-    }
-    
-    .footer {
-      margin: 20px auto;
-      width: 90%;
-      background-color: #004299;
-      border: 5px double cyan;
-      padding: 2px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 3em;
-      text-shadow: 2px 2px magenta;
-      margin-bottom: 0.2em;
-    }
-
-    blink {
-      animation: blinker 1s linear infinite;
-    }
-
-
-    marquee {
-      color: hotpink;
-      font-size: 1.2em;
-      margin-top: 20px;
-    }
-
-    a {
-      color: cyan;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
   <div class="container">
-    <h1><blink>Welcome to Eli's Hompage!</blink></h1>
+    <h1>Welcome to Eli's Homepage!</h1>
     <p>This site is currently <strong>🚧 Under Construction 🚧</strong>.</p>
-    <marquee behavior="scroll" direction="left">🔥 If ur reading this, ur awesome 🔥</marquee>
+    <marquee behavior="scroll" direction="left">🔥 welcome to the best corner of the world wide web 🔥</marquee>
   </div>
-  
+  <h2 style="text-align: center;">Some Projects</h2>
   <div class="container">
-    <h2 style="text-align: left;">My Projects</h2>
-    <div class="project_card">
-    <p> Test!</p>
-    </div>
-    <div class="project_card">
-	<p> Test 2! </p>
+
+      <table>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>
+            <img src="https://img.itch.zone/aW1nLzIxMzY0NjYyLnBuZw==/315x250%23c/KdbhfI.png", alt="Header picture for an asteroids ripoff game called Star Dodger" style="width: 100px; height: auto;">
+          </td>
+          <td><b>Star Dodger</b>, a game made for the <a href="https://itch.io/jam/mini-code-for-a-cause">Mini Code for a Cause</a> jam.</td>
+          <td><a href="https://rustelias.itch.io/star-dodger">Play the game</a></td>
+        </tr>
+        <tr>
+          <td>
+            <img src="wiznet.png" alt="Wiznet Logo" style="width: 100px; height: auto;">
+          </td>
+          <td>Auto-magically automate small network tasks at scale with <b>Wiznet</b>!</td>
+          <td><a href="mailto:eli@eliasrust.com">Email me @ eli@eliasrust.com for more access or more info</a></td>
+      </table>
 	</div>	
   
   

@@ -1,0 +1,69 @@
+body {
+      background:  #354ca9  url('https://rustelias.github.io/grid-me.png');
+      color:  #feee5c ;
+      font-family: "Comic Sans MS", "Courier New", monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      margin: 50px auto;
+      width: 80%;
+      background-color:  #354ca9  ;
+      border: 5px double  #febe5c;
+      padding: 20px;
+      text-align: center;
+    }
+
+    
+    .project_card {
+      text-align: left;
+      border: 1px solid white;
+    }
+    
+    .footer {
+      margin: 20px auto;
+      width: 90%;
+      background-color: #004299;
+      border: 5px double cyan;
+      padding: 2px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-shadow: 2px 2px   #5894c8  ;
+      margin-bottom: 0.2em;
+      color: #feee5c ;
+    }
+
+    blink {
+      animation: blinker 1s linear infinite;
+    }
+
+
+    marquee {
+      color:  #feee5c   ;
+      font-size: 0.8em;
+      margin-top: 20px;
+    }
+
+    a {
+      color: cyan;
+      text-decoration: none;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.75em;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid white;
+      text-align: left;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
